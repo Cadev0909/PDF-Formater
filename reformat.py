@@ -63,8 +63,6 @@ def process_folder(folder_path):
             convert_to_pdfa(file_path)
 
 if __name__ == "__main__":
-    #folder_path = r"/Users/cadev/Downloads/pdf"  # Test folder
-    #folder_path = r"/smb/recv"
     if len(sys.argv) != 2:
         print("Usage: python reformat.py $folder_path")
         sys.exit(1)
